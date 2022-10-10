@@ -1,0 +1,52 @@
+.body_bg
+{
+    background-image:url("bg.jpg");
+    background-size: cover;
+}
+
+.enter_web
+{
+    border-color: coral;
+    border-radius: 5px;
+    width: 150px;
+    height:100px; 
+    font-size: large;
+    font-family: cursive;
+}
+
+.greece1
+{
+    
+    box-shadow: 5px 5px 25px blue;
+}
+
+
+ul.horizontal2 {
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+ul.horizontal2 li {
+    float: left;
+}
+
+ul.horizontal2 li a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal2 li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.horizontal2 a.active {
+    color: white;
+    background-color: #04AA6D;
+}
